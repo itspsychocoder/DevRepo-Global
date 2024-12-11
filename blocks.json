@@ -1,0 +1,18 @@
+{
+  "dbConnection": {
+    "path": "blocks/dbConnection",
+    "description": "Database connection setup for Node.js with MongoDB",
+    "dependencies": ["mongoose", "dotenv"],
+    "files": [
+      "dbConnection.js"
+    ]
+  },
+  "expressServer": {
+    "path": "blocks/expressServer",
+    "description": "Basic Express server setup",
+    "dependencies": ["express"],
+    "files": [
+      "server.js"
+    ]
+  }
+}
